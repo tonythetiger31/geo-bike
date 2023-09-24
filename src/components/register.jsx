@@ -30,7 +30,7 @@ const RegisterForm = (props) => {
   return (
     <div className="login">
       <form onSubmit={handleSubmit}>
-        <h2 className="inline">Register to [...]</h2>
+        <h2 className="inline">Register to bike bucks</h2>
         <div>
           <input
             className="textarea"

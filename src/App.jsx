@@ -5,12 +5,14 @@ import Navigation from "./components/navigation";
 import ProfileSettings from "./components/profilesettings";
 import AccountSettings from "./components/accountsettings";
 import QuoteHistory from "./components/quotehistory";
+import Navbar from "./components/navbar";
 
 const App = () => {
   return (
     <div className="body">
+		<Navbar/>
       <Router>
-        <Routes>
+		   <Routes>
           <Route path="/" element={<LoginForm />} />
           <Route path="/register" element={<RegisterForm />} />
           <Route path="/home" element={<Navigation />} />
