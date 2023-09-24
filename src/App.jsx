@@ -6,6 +6,7 @@ import ProfileSettings from "./components/profilesettings";
 import AccountSettings from "./components/accountsettings";
 import QuoteHistory from "./components/quotehistory";
 import Navbar from "./components/navbar";
+import LandingPage from "./components/landingPage";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
 		<Navbar/>
       <Router>
 		   <Routes>
-          <Route path="/" element={<LoginForm />} />
+          <Route path="/" element={<LandingPage/>} />
           <Route path="/register" element={<RegisterForm />} />
           <Route path="/home" element={<Navigation />} />
           <Route path="/profilesettings" element={<ProfileSettings />} />

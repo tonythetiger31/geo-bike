@@ -2,7 +2,7 @@
 
 body {
   background: #d3fdde;
-  background: linear-gradient(to bottom, #0abd45, #060e09);
+  background: linear-gradient(to bottom, #0abd45, #005e1f);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -184,7 +184,42 @@ ul {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 0;
 	padding: 1% 0;
-	color:#0abd45;
+	color:rgb(63,156,44);
+	padding: 10px 10px;
+	box-shadow: 0px -12px 7px 20px #00000036;
+}
+
+.logoTitle{
+	display: inline-block;
+	font-size: 27px;
+	margin-left: 10px;
+}
+
+.landingPageh1{
+	font-weight: 100;
+	font-size: 70px;
+}
+
+.landingPageFlex1{
+	display: flex;
+	
+}
+
+.bikePhoto{
+	box-shadow: 10px 10px grey;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.landingPage{
+	margin: 0 20%;
+	font-family: Arial, Helvetica, sans-serif;
+
+	margin-bottom: 10%;
+}
+
+.logoImg{
+	display: inline-block;
 }
 
 .button:hover {
