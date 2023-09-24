@@ -25,12 +25,16 @@ const BikeHistory = (props) => {
 
       <div className="main-sub-div">
         {arrayOfTrips.map((trip, index) => (
-          <div key={index} className="main-sub-div">
-            <p className="trip-p grey">Travel Date: {trip.travelDate}</p>
-            <p className="trip-p grey">Miles: {trip.miles}</p>
-            <p className="trip-p grey">Gallons Saved: {trip.gallonsSaved}</p>
-            <p className="trip-p grey">CO2 Saved (Tonnes): {trip.CO2savedTonnes}</p>
-            <p className="trip-p grey">Bike Bucks: {trip.bikeBucks}</p>
+          <div key={index} className="main-sub-sub-div">
+				<div className="bikeBucksContainer">
+         	   <p className="trip-p grey">Travel Date: {trip.travelDate}</p>
+         	   <p className="trip-p grey">Miles: {trip.miles}</p>
+         	   <p className="trip-p grey">Gallons Saved: {trip.gallonsSaved}</p>
+				</div>
+				<div className="bikeBucksContainer">  
+           	   <p className="trip-p grey">CO2 Saved (Tonnes): {trip.CO2savedTonnes}</p>
+            	<p className="trip-p grey">Bike Bucks: {trip.bikeBucks}</p>
+				</div>
           </div>
         ))}
       </div>

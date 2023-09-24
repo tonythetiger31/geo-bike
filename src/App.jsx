@@ -15,7 +15,7 @@ const App = () => {
 		   <Routes>
           <Route path="/" element={<LandingPage/>} />
           <Route path="/register" element={<RegisterForm />} />
-          <Route path="/home" element={<Navigation />} />
+          <Route path="/app" element={<Navigation />} />
           <Route path="/profilesettings" element={<ProfileSettings />} />
           <Route path="/accountsettings" element={<AccountSettings />} />
           

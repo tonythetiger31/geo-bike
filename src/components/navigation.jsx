@@ -23,7 +23,7 @@ const Navigation = () => {
               className="nav-button"
               onClick={() => setActiveCmponents(<BikeHistory />)}
             >
-              Bike Bucks
+             Bike Bucks 
             </button>
             <button
               className="nav-button"

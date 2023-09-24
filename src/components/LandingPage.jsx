@@ -6,7 +6,7 @@ export default function LandingPage() {
 	return (
 		<div className='landingPage'>
 
-			<h1 className='landingPageh1'>Make it to class on time, while saving the planet 🌳</h1>
+			<h1 className='landingPageh1'>Your Sustainable Mobility Companion!</h1>
 
 			<h1 style={{ "font-size": "50px" }}>Find the closest bike</h1>
 			<div className='landingPageFlex1'>
