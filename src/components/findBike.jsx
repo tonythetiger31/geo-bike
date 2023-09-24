@@ -42,9 +42,11 @@ const FindBike = (props) => {
                             title="Google Map"
 
                         ></iframe>
+                        
+                        <p>{bikesAvailable} bikes available.</p>
                         <Link to="/profilesettings">
-                            <button className="editSettings">
-                                Edit Profile
+                            <button className="confirmBike">
+                                Confirm Bike
                             </button>
                         </Link>
                     </div>
