@@ -90,7 +90,7 @@ body {
   width: 25%;
   height: 40px;
   margin-bottom: 5px;
-  color: rgb(146, 146, 146);
+  color: #060e09;
   padding: 0.4vmax 2vmax;
   padding-left: 0.8vmax;
   border: none;
@@ -257,7 +257,7 @@ ul {
 .profileFormat {
   font-size: 14pt;
   color:rgb(112, 112, 112);
-  width: 30%;
+  width: 90%;
 }
 
 .userInfo {
