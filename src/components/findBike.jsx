@@ -5,23 +5,11 @@ const FindBike = (props) => {
 
     {/*Replace with real API fetch*/ }
     const bikesAvailable = 17;
-    const firstName = "John";
-    const lastName = "Smith";
-    const address1 = "11 Street Dr.";
-    const address2 = "";
-    const city = "Houston";
-    const state = "TX";
-    const zipCode = "77777";
-    const business = "Busniess Organization";
 
-    const userData = {
-        name: firstName + " " + lastName,
-        address: address1 + " " + address2,
-        cityStateZip: city + ", " + state + " " + zipCode,
-        business: business
-    };
-
-    const [user, setUserData] = useState(userData);
+    // const [component, setComponent] = useState(null);
+    // const setActiveCmponents = (component) => {
+    //     setComponent(component);
+    //   };
 
     return (
         <div className="bigform">
@@ -42,13 +30,15 @@ const FindBike = (props) => {
                             title="Google Map"
 
                         ></iframe>
-                        
-                        <p>{bikesAvailable} bikes available.</p>
-                        <Link to="/profilesettings">
+                        <div>
+                            <p>{bikesAvailable} bikes available.</p>
+
+                            {/*<button className="nav-button" onClick={() => setActiveCmponents(<FindBike />)}>  */}
                             <button className="confirmBike">
                                 Confirm Bike
                             </button>
-                        </Link>
+
+                        </div>
                     </div>
                 </div>
 

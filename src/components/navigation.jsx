@@ -1,10 +1,11 @@
 import { useState } from "react";
 import FindBike from "./findBike";
+import BikeHistory from "./bikebucks";
 import Account from "./accountinfo";
 
 
 const Navigation = () => {
-  const [component, setComponent] = useState(null);
+  const [component, setComponent] = useState(FindBike);
 
   const setActiveCmponents = (component) => {
     setComponent(component);
@@ -20,13 +21,13 @@ const Navigation = () => {
             </button>
             <button
               className="nav-button"
-              onClick={() => setActiveCmponents(<Account />)}
+              onClick={() => setActiveCmponents(<BikeHistory />)}
             >
               Bike Bucks
             </button>
             <button
               className="nav-button"
-              onClick={() => setActiveCmponents(<QuoteForm />)}
+              onClick={() => setActiveCmponents(<Account />)}
             >
                Account
             </button>

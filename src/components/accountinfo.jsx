@@ -7,11 +7,13 @@ const Account = (props) => {
     const userName = "johnsmith101";
     const email = "johnsmith@email.com";
     const password = "123456789";
+    const bikeBucks = "564";
 
     const userData = {
         userName: userName,
         email: email,
         password: password,
+        bikeBucks: bikeBucks,
     };
 
     const [user, setUserData] = useState(userData);
@@ -25,11 +27,13 @@ const Account = (props) => {
                         <p>Username: </p>
                         <p>Email: </p>
                         <p>Password: </p>
+                        <p>BikeBucks earned: </p>
                     </div>
                     <div className="userInfo">
                         <p>{user.userName}</p>
-                        <p>{user.email} {user.cityStateZip}</p>
+                        <p>{user.email}</p>
                         <PasswordDisplay password={user.password} />
+                        <p>{user.bikeBucks} BikeBucks</p>
                     </div>
                 </div>
             <Link to="/accountsettings">
