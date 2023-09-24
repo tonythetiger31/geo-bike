@@ -24,7 +24,7 @@ const LoginForm = (props) => {
   return (
     <div className="login">
       <form onSubmit={handleSubmit}>
-        <h2 className="inline">Login to [...]</h2>
+        <h2 className="inline">Login to bike bucks</h2>
         <div>
           <input
             className="textarea"
